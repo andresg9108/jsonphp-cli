@@ -1,4 +1,4 @@
-# ManyP CLI #
+# JsonPHP CLI #
 
 The documentation for this project can be found at the following link.
 
