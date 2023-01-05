@@ -1,0 +1,27 @@
+{
+  "name": "jsonphp-cli",
+  "version": "0.1.0",
+  "description": "This is the jsonphp CLI.",
+  "main": "./lib/index.js",
+  "bin": {
+    "jsonphp-cli": "./bin/index.js"
+  },
+  "scripts": {
+    "start": "node ./bin/index.js",
+    "preinstall": "npm i install-here processpy -g"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andresg9108/jsonphp-cli.git"
+  },
+  "author": "Andrés González",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andresg9108/jsonphp-cli/issues"
+  },
+  "homepage": "https://github.com/andresg9108/jsonphp-cli#readme",
+  "dependencies": {
+    "commander": "^9.4.0",
+    "shelljs": "^0.8.5"
+  }
+}
