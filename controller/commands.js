@@ -10,15 +10,16 @@ oApp.install = () => {
 	exec('install-here jsonphp');
 	console.log('\nInstalling dependencies.\n');
 	exec('npm i');
-	exec('composer install')
+	exec('composer install');
 }
 
-/*oApp.update = () => {
+oApp.update = () => {
 	console.log('\nUpdate jsonphp.\n');
 	exec('install-here jsonphp');
 	console.log('\nUpdate dependencies.\n');
 	exec('npm update');
-}*/
+	exec('composer update');
+}
 
 
 exports.install = oApp.install;

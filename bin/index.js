@@ -29,12 +29,12 @@ try{
 	});
 
 	// Update all jsonphp packages in the current folder.
-	/*oApp.commander.command('update')
+	oApp.commander.command('update')
 	.alias('u')
 	.description('Update all jsonphp packages in the current folder.')
 	.action(() => {
 		oApp.commands.update();
-	});*/
+	});
 
 	oApp.commander.parse(process.argv);
 }catch(e){
