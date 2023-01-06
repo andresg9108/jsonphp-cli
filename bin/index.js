@@ -36,6 +36,14 @@ try{
 		oApp.commands.update();
 	});
 
+	// Update SQL queries.
+	oApp.commander.command('sql')
+	.alias('sq')
+	.description('Update SQL queries.')
+	.action(() => {
+		oApp.commands.sql();
+	});
+
 	oApp.commander.parse(process.argv);
 }catch(e){
 	switch(e){

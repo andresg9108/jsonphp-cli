@@ -21,6 +21,12 @@ oApp.update = () => {
 	exec('composer update');
 }
 
+oApp.sql = () => {
+	console.log('\nUpdate SQL queries..\n');
+	exec('npm run sql');
+}
+
 
 exports.install = oApp.install;
-// exports.update = oApp.update;
+exports.update = oApp.update;
+exports.sql = oApp.sql;
